@@ -1,0 +1,25 @@
+
+
+.myNextBtn, .myBackBtn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: "#212ea0";
+    cursor: pointer;
+}
+
+.myBackBtn{
+    right: auto;
+    left: 0;
+}
+
+@media (max-width: 670px){
+    .myNextBtn, .myBackBtn{
+        padding: 10px;
+        width: 35px;
+    }
+}
